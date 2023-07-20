@@ -31,3 +31,33 @@ the .timeStamp property to access the number of milliseconds that passed since t
 First, add a statement inside the sharePhoto() function that will change the .display property of the event .target to 'none'.
 
 Remember that the event .target is a DOM element and you can access the .display property by referencing the .style property first.
+
+### Hint
+
+You’ll need to use the .target property on an event object to access the event target, like event.target.
+
+To change a CSS property in JavaScript, you must use the following syntax:
+
+element.style.property = 'value';
+
+first.
+
+Checkpoint 2 Passed
+
+Hint
+You’ll need to use the .target property on an event object to access the event target, like event.target.
+
+To change a CSS property in JavaScript, you must use the following syntax:
+
+```JS
+element.style.property = 'value';
+```
+
+element.style.property = 'value';
+
+2. Next, add a statement to the sharePhoto function that will modify the text element to state the number of milliseconds from the DOM loading to the event firing.
+
+Checkpoint 3 Passed
+
+Hint
+Use the .timeStamp property on an event object to access the number of milliseconds between the DOM loading and the event firing, like so event.timeStamp.
