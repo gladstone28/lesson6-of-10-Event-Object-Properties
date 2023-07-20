@@ -42,9 +42,8 @@ element.style.property = 'value';
 
 first.
 
-Checkpoint 2 Passed
+### Hint
 
-Hint
 You’ll need to use the .target property on an event object to access the event target, like event.target.
 
 To change a CSS property in JavaScript, you must use the following syntax:
@@ -57,7 +56,15 @@ element.style.property = 'value';
 
 2. Next, add a statement to the sharePhoto function that will modify the text element to state the number of milliseconds from the DOM loading to the event firing.
 
-Checkpoint 3 Passed
+### Hint
+
+Use the .timeStamp property on an event object to access the number of milliseconds between the DOM loading and the event firing, like so event.timeStamp.
+
+Now, to create functionality for the event object, assign the sharePhoto function to a click event on the share element.
+
+Run your code!
+
+Checkpoint 4 Passed
 
 Hint
-Use the .timeStamp property on an event object to access the number of milliseconds between the DOM loading and the event firing, like so event.timeStamp.
+Add sharePhoto as an event handler function for the click event either using addEventListener() or .onevent property.
